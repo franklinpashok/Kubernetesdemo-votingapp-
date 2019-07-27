@@ -9,8 +9,8 @@ spec:
   type: LoadBalancer
   ports:
     - port: 80
-      targetport: 80
-    selector:
+      targetPort: 80
+  selector:
 #labels from the resultapp-pod.yml
       name: result-app-pod
       app: demo-voting-app

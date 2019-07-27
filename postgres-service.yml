@@ -8,8 +8,8 @@ metadata:
 spec:
   ports:
     - port: 5432
-      targetport: 5432
-    selector:
+      targetPort: 5432
+  selector:
 #labels from the postgres-pod.yml
       name: postgres-pod
       app: demo-voting-app
